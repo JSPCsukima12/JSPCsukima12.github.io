@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サイコロシミュレーター</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>サイコロシミュレーター(Ver1.0)</h1>
+    <div>
+      <img src="1.png" height="120" width="120" id ="dice">
+      <button>サイコロを振る</button>
+    </div>
+  </main>
+  <h2>出目の詳細</h2>
+  <section class="detail">
+    <div>
+      <img src="1.png" height="120" width="120">
+      <p class="count">回数:<span class="one">0</span></p>
+    </div>
+    <div>
+      <img src="2.png" height="120" width="120">
+      <p class="count">回数:<span class="two">0</span></p>
+    </div>
+    <div>
+      <img src="3.png" height="120" width="120">
+      <p class="count">回数:<span class="three">0</span></p>
+    </div>
+    <div>
+      <img src="4.png" height="120" width="120">
+      <p class="count">回数:<span class="four">0</span></p>
+    </div>
+    <div>
+      <img src="5.png" height="120" width="120">
+      <p class="count">回数:<span class="five">0</span></p>
+    </div>
+    <div>
+      <img src="6.png" height="120" width="120">
+      <p class="count">回数:<span class="six">0</span></p>
+    </div>
+  </section>
+  <h2>グラフ<span class="help">(1回以上振ったら表示)</span></h2>
+  <section class="graph">
+    <div class="number">
+      <p>1</p>
+      <p>2</p>
+      <p>3</p>
+      <p>4</p>
+      <p>5</p>
+      <p>6</p>
+    </div>
+    <div class="percent">
+      <div class="bar">
+        <p class="num num1">0%</p>
+        <p class="sup">　</p>
+      </div>
+      <div class="bar">
+        <p class="num num2">0%</p>
+        <p class="sup">　</p>
+      </div>
+      <div class="bar">
+        <p class="num num3">0%</p>
+        <p class="sup">　</p>
+      </div>
+      <div class="bar">
+        <p class="num num4">0%</p>
+        <p class="sup">　</p>
+      </div>
+      <div class="bar">
+        <p class="num num5">0%</p>
+        <p class="sup">　</p>
+      </div>
+      <div class="bar">
+        <p class="num num6">0%</p>
+        <p class="sup">　</p>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="main.js"></script>
+</html>
